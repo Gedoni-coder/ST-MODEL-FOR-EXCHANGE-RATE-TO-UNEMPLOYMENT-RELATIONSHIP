@@ -1,0 +1,78 @@
+{
+  "gdp_growth_model": {
+    "full_range": {
+      "r2_loocv": -0.0013091202038899574,
+      "mae_loocv": 1.73638974129471,
+      "coefficients": {
+        "FDI_Billion_USD": -0.1297796078702867,
+        "Inflation_Rate": -0.6403606916516894,
+        "Trade_Balance_Billion_USD": -0.17895447594797095,
+        "Military_Expenditure_Percent_GDP": 0.485778521592447,
+        "Agriculture_Share": 0.6069731820169075,
+        "Industry_Share": 0.4789906358021113,
+        "War_Conflict_Indicator": 0.24821730269921813
+      }
+    },
+    "reliable_window": {
+      "r2_loocv": -0.08414475706132607,
+      "mae_loocv": 1.652078063476639,
+      "coefficients": {
+        "FDI_Billion_USD": -0.10002119230923953,
+        "Inflation_Rate": -0.8681528114965419,
+        "Trade_Balance_Billion_USD": -0.3469707359286975,
+        "Military_Expenditure_Percent_GDP": 0.538740662685234,
+        "Agriculture_Share": -0.4916560048817291,
+        "Industry_Share": -0.029132339330846028,
+        "War_Conflict_Indicator": 0.14079241616079768
+      }
+    },
+    "n_full": 79,
+    "n_reliable": 35
+  },
+  "exchange_rate_model": {
+    "annual_depreciation_pct": 6.032437266426238,
+    "residual_model": {
+      "r2_loocv": -0.006904181945226462,
+      "mae_loocv": 0.20751421637094716,
+      "coefficients": {
+        "GDP_Growth_Rate": -0.07835697191089104,
+        "Inflation_Rate": -0.03469280750095537,
+        "Trade_Balance_Billion_USD": -0.031523511334162334,
+        "FDI_Billion_USD": 0.016888668369432973
+      }
+    },
+    "n": 78
+  },
+  "unemployment_model": {
+    "full_range": {
+      "r2_loocv": 0.299348477754504,
+      "mae_loocv": 1.2487851717773153,
+      "coefficients": {
+        "GDP_Growth_Rate": 0.058489569513678626,
+        "Inflation_Rate": -0.00660461679709301,
+        "Military_Expenditure_Percent_GDP": -0.6291390487543319,
+        "War_Conflict_Indicator": -0.8996479013428086
+      }
+    },
+    "reliable_window": {
+      "r2_loocv": 0.6243604573592635,
+      "mae_loocv": 0.9750554237996326,
+      "coefficients": {
+        "GDP_Growth_Rate": -0.1374815700988038,
+        "Inflation_Rate": 0.09201849522726077,
+        "Military_Expenditure_Percent_GDP": -1.344055379253831,
+        "War_Conflict_Indicator": -1.259518026622171
+      }
+    },
+    "conflict_year_comparison": {
+      "conflict_years_mean_unemployment": 1.3950762168299826,
+      "non_conflict_years_mean_unemployment": 3.322999879086707,
+      "n_conflict_years": 29,
+      "n_non_conflict_years": 50
+    },
+    "okun_correlation_full": -0.1039986907172701,
+    "okun_correlation_reliable": -0.2181892613917512,
+    "n_full": 79,
+    "n_reliable": 35
+  }
+}

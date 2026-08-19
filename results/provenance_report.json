@@ -1,0 +1,36 @@
+{
+  "precision_pre_1991_max_decimals": {
+    "Inflation_Rate": 16,
+    "Unemployment_Rate": 16,
+    "GDP_Growth_Rate": 16
+  },
+  "world_bank_overlap": {
+    "overlap_years": [
+      1991,
+      2020
+    ],
+    "n_overlap": 30,
+    "inflation_corr": 1.0,
+    "inflation_max_abs_diff": 4.8583999046059034e-09,
+    "gdp_growth_corr": 0.9564734401824415,
+    "unemployment_corr": 0.9332957188288269
+  },
+  "gdp_level_checks": {
+    "1960-2021": {
+      "n": 62,
+      "corr": 0.9960342915355588,
+      "mean_ratio_primary_over_external": 1.042856508949406
+    },
+    "2007-2015": {
+      "n": 9,
+      "corr": 0.9907615947268146,
+      "mean_ratio_primary_over_external": 1.1282018263725215
+    },
+    "2016-2021": {
+      "n": 6,
+      "corr": 0.99999015034262,
+      "mean_ratio_primary_over_external": 1.0001170625664553
+    }
+  },
+  "conclusion": "Post-1991 corroborated against World Bank indicators. Pre-1991 unverified and likely interpolated. All models are therefore reported on both the full range and the 1991+ window."
+}
